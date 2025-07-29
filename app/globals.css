@@ -1,8 +1,59 @@
+/* Import Tailwind base styles */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Optional: Global styling */
-body {
-  @apply bg-white text-gray-900;
+/* Global HTML settings */
+html {
+  scroll-behavior: smooth;
+  font-family: 'Inter', sans-serif;
 }
+
+/* Body defaults */
+body {
+  /* background: #232323; */
+  @apply text-gray-900 leading-relaxed tracking-wide;
+  margin: 0;
+  padding: 0;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  @apply font-semibold text-gray-900;
+}
+
+/* Remove section, footer, and container max-width/margins for full width sections */
+/* Section spacing */
+/* section {
+  @apply py-20 px-4 md:px-12 max-w-6xl mx-auto;
+} */
+
+/* Links */
+a {
+  @apply text-blue-600 hover:text-blue-800 transition duration-200;
+}
+
+/* Buttons */
+button {
+  @apply px-6 py-2 rounded-lg font-medium bg-blue-600 text-white hover:bg-blue-700 transition duration-200;
+}
+
+/* Forms */
+input, textarea {
+  @apply w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400;
+}
+
+/* Navbar shadow */
+nav {
+  @apply shadow-sm bg-white;
+}
+
+/* Remove footer default style */
+/* footer {
+  @apply text-center text-gray-600 text-sm py-4;
+} */
+
+/* Utilities */
+/* .container {
+  @apply max-w-6xl mx-auto px-4;
+} */
