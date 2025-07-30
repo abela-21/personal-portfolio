@@ -55,7 +55,7 @@ export default function ContactSection() {
         <a href="https://linkedin.com/in/abel-abera-bireda" target="_blank" rel="noopener noreferrer" className="text-[#FFFFF0] hover:text-gray-300 transition">
           <FaLinkedin className="text-2xl" />
         </a>
-        <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer" className="text-[#FFFFF0] hover:text-gray-300 transition">
+        <a href="https://twitter.com/Abela_AG" target="_blank" rel="noopener noreferrer" className="text-[#FFFFF0] hover:text-gray-300 transition">
           <FaTwitter className="text-2xl" />
         </a>
       </motion.div>
