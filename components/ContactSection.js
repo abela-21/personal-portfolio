@@ -33,7 +33,7 @@ export default function ContactSection() {
           </a>
           <div className="flex items-center gap-3 text-lg">
             <FaPhone className="text-xl" />
-            <span>+49 152 253 69765</span>
+            <span>+353 89 967 9325</span>
           </div>
           <div className="flex items-center gap-3 text-lg">
             <FaEnvelope className="text-xl" />
