@@ -25,7 +25,7 @@ export default function ContactSection() {
         </p>
         <div className="flex flex-col md:flex-row gap-6 items-center justify-center mb-10 w-full">
           <a
-            href="/Abel_Bireda_CV_08.25"
+            href="/Abel_Bireda_CV_08.25.pdf"
             download
             className="flex items-center gap-3 px-6 py-3 rounded-lg bg-white/10 border border-white/20 hover:bg-white/20 transition text-white text-lg font-medium"
           >
