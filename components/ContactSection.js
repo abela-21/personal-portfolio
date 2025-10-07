@@ -25,7 +25,7 @@ export default function ContactSection() {
         </p>
         <div className="flex flex-col md:flex-row gap-6 items-center justify-center mb-10 w-full">
           <a
-            href="/Abel Bireda_Resume .pdf"
+            href="/Abel Bireda Resume.pdf"
             download
             className="flex items-center gap-3 px-6 py-3 rounded-lg bg-white/10 border border-white/20 hover:bg-white/20 transition text-white text-lg font-medium"
           >
@@ -33,11 +33,11 @@ export default function ContactSection() {
           </a>
           <div className="flex items-center gap-3 text-lg">
             <FaPhone className="text-xl" />
-            <span>+49 152 2536 9765</span>
+            <span>+353 89 268 8629</span>
           </div>
           <div className="flex items-center gap-3 text-lg">
             <FaEnvelope className="text-xl" />
-            <span>abela.abera.ag@gmail.com</span>
+            <span>abela.bireda@gmail.com</span>
           </div>
         </div>
       </motion.div>
