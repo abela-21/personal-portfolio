@@ -37,7 +37,7 @@ export default function ContactSection() {
           </div>
           <div className="flex items-center gap-3 text-lg">
             <FaEnvelope className="text-xl" />
-            <span>abela.bireda@gmail.com</span>
+            <span>abel.bireda@gmail.com</span>
           </div>
         </div>
       </motion.div>
